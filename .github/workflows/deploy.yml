@@ -25,7 +25,7 @@ jobs:
 
     - name: Build Docker Image
       run: |
-        docker build -t YOUR_DOCKER_USERNAME/chessai:v1 .
+        docker build -t rushi6257/chessai:v1 .
 
     - name: Push Docker Image
       run: |
